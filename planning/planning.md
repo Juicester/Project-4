@@ -38,3 +38,29 @@ Play
 - player (who gets the stats for the result)
 
 These are the Models that I am thinking I will need for MVP. I plan to add much more detail to each model to do more detailed analysis if I have the time. I will update this planning file as I add more
+
+# Endpoints
+
+Team
+
+- teams
+- teams/id
+- teams/id/specific stat
+
+Player
+
+- players
+- players/id
+- players/id/specific stat
+
+Game
+
+- games
+- games/id
+- games/id/score
+
+Play
+
+- plays/gameID
+- plays/gameID/playID
+- plays/gameID/playID/specific column in the database
