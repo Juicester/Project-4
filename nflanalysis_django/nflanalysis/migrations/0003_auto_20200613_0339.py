@@ -143,6 +143,520 @@ def seed(apps, schema_editor):
     ten.save()
     minn.save()
 
+    Game(game_id='1',	week='1',	day='Thursday',	date='43713',	away_team=gb,	away_spread='4',
+         home_team=chi,	home_spread='-4',	over_under='45.5',	away_score='10',	home_score='3').save()
+
+    Game(game_id='2',	week='1',	day='Sunday',	date='43716',	away_team=buf,	away_spread='3.5',
+         home_team=nyj,	home_spread='-3.5',	over_under='38.5',	away_score='17',	home_score='16').save()
+    Game(game_id='3',	week='1',	day='Sunday',	date='43716',	away_team=ten,	away_spread='5',
+         home_team=cle,	home_spread='-5',	over_under='45',	away_score='43',	home_score='13').save()
+    Game(game_id='4',	week='1',	day='Sunday',	date='43716',	away_team=bal,	away_spread='-4',
+         home_team=mia,	home_spread='4',	over_under='37',	away_score='59',	home_score='10').save()
+    Game(game_id='5',	week='1',	day='Sunday',	date='43716',	away_team=atl,	away_spread='4',
+         home_team=minn,	home_spread='-4',	over_under='47.5',	away_score='12',	home_score='28').save()
+    Game(game_id='6',	week='1',	day='Sunday',	date='43716',	away_team=was,	away_spread='9',
+         home_team=phi,	home_spread='-9',	over_under='46.5',	away_score='27',	home_score='32').save()
+    Game(game_id='7',	week='1',	day='Sunday',	date='43716',	away_team=lar,	away_spread='-2.5',
+         home_team=car,	home_spread='2.5',	over_under='51',	away_score='30',	home_score='27').save()
+    Game(game_id='8',	week='1',	day='Sunday',	date='43716',	away_team=kc,	away_spread='-4',
+         home_team=jax,	home_spread='4',	over_under='52',	away_score='40',	home_score='26').save()
+    Game(game_id='9',	week='1',	day='Sunday',	date='43716',	away_team=ind,	away_spread='3',
+         home_team=lac,	home_spread='-3',	over_under='48.5',	away_score='24',	home_score='30').save()
+    Game(game_id='10',	week='1',	day='Sunday',	date='43716',	away_team=cin,	away_spread='9',
+         home_team=sea,	home_spread='-9',	over_under='43.5',	away_score='20',	home_score='21').save()
+    Game(game_id='11',	week='1',	day='Sunday',	date='43716',	away_team=nyg,	away_spread='7',
+         home_team=dal,	home_spread='-7',	over_under='46.5',	away_score='17',	home_score='35').save()
+    Game(game_id='12',	week='1',	day='Sunday',	date='43716',	away_team=det,	away_spread='0',
+         home_team=ari,	home_spread='0',	over_under='48.5',	away_score='27',	home_score='27').save()
+    Game(game_id='13',	week='1',	day='Sunday',	date='43716',	away_team=sf,	away_spread='1',
+         home_team=tb,	home_spread='-1',	over_under='49',	away_score='31',	home_score='17').save()
+    Game(game_id='14',	week='1',	day='Sunday',	date='43716',	away_team=pit,	away_spread='6.5',
+         home_team=ne,	home_spread='-6.5',	over_under='52',	away_score='3',	home_score='33').save()
+    Game(game_id='15',	week='1',	day='Monday',	date='43717',	away_team=hou,	away_spread='7',
+         home_team=no,	home_spread='-7',	over_under='53.5',	away_score='28',	home_score='30').save()
+    Game(game_id='16',	week='1',	day='Monday',	date='43717',	away_team=den,	away_spread='2.5',
+         home_team=oak,	home_spread='-2.5',	over_under='43',	away_score='16',	home_score='24').save()
+    Game(game_id='17',	week='2',	day='Thursday',	date='43720',	away_team=tb,	away_spread='6.5',
+         home_team=car,	home_spread='-6.5',	over_under='50.5',	away_score='20',	home_score='14').save()
+    Game(game_id='18',	week='2',	day='Sunday',	date='43723',	away_team=sf,	away_spread='-1.5',
+         home_team=cin,	home_spread='1.5',	over_under='45',	away_score='41',	home_score='17').save()
+    Game(game_id='19',	week='2',	day='Sunday',	date='43723',	away_team=lac,	away_spread='-3',
+         home_team=det,	home_spread='3',	over_under='47',	away_score='10',	home_score='13').save()
+    Game(game_id='20',	week='2',	day='Sunday',	date='43723',	away_team=minn,	away_spread='2.5',
+         home_team=gb,	home_spread='-2.5',	over_under='46',	away_score='16',	home_score='21').save()
+    Game(game_id='21',	week='2',	day='Sunday',	date='43723',	away_team=ind,	away_spread='3',
+         home_team=ten,	home_spread='-3',	over_under='44',	away_score='19',	home_score='17').save()
+    Game(game_id='22',	week='2',	day='Sunday',	date='43723',	away_team=ne,	away_spread='-15',
+         home_team=mia,	home_spread='15',	over_under='47',	away_score='43',	home_score='0').save()
+    Game(game_id='23',	week='2',	day='Sunday',	date='43723',	away_team=buf,	away_spread='-2.5',
+         home_team=nyg,	home_spread='2.5',	over_under='42.5',	away_score='28',	home_score='14').save()
+    Game(game_id='24',	week='2',	day='Sunday',	date='43723',	away_team=sea,	away_spread='3.5',
+         home_team=pit,	home_spread='-3.5',	over_under='46.5',	away_score='28',	home_score='26').save()
+    Game(game_id='25',	week='2',	day='Sunday',	date='43723',	away_team=dal,	away_spread='-6.5',
+         home_team=was,	home_spread='6.5',	over_under='44',	away_score='31',	home_score='21').save()
+    Game(game_id='26',	week='2',	day='Sunday',	date='43723',	away_team=ari,	away_spread='14',
+         home_team=bal,	home_spread='-14',	over_under='42.5',	away_score='17',	home_score='23').save()
+    Game(game_id='27',	week='2',	day='Sunday',	date='43723',	away_team=jax,	away_spread='8.5',
+         home_team=hou,	home_spread='-8.5',	over_under='44.5',	away_score='12',	home_score='13').save()
+    Game(game_id='28',	week='2',	day='Sunday',	date='43723',	away_team=kc,	away_spread='-7.5',
+         home_team=oak,	home_spread='7.5',	over_under='52',	away_score='28',	home_score='10').save()
+    Game(game_id='29',	week='2',	day='Sunday',	date='43723',	away_team=chi,	away_spread='1',
+         home_team=den,	home_spread='-1',	over_under='40.5',	away_score='16',	home_score='14').save()
+    Game(game_id='30',	week='2',	day='Sunday',	date='43723',	away_team=no,	away_spread='3',
+         home_team=lar,	home_spread='-3',	over_under='54',	away_score='9',	home_score='27').save()
+    Game(game_id='31',	week='2',	day='Sunday',	date='43723',	away_team=phi,	away_spread='-1',
+         home_team=atl,	home_spread='1',	over_under='51',	away_score='20',	home_score='24').save()
+    Game(game_id='32',	week='2',	day='Monday',	date='43724',	away_team=cle,	away_spread='-1',
+         home_team=nyj,	home_spread='1',	over_under='46',	away_score='23',	home_score='3').save()
+    Game(game_id='33',	week='3',	day='Thursday',	date='43727',	away_team=ten,	away_spread='-1.5',
+         home_team=jax,	home_spread='1.5',	over_under='40',	away_score='7',	home_score='20').save()
+    Game(game_id='34',	week='3',	day='Sunday',	date='43730',	away_team=atl,	away_spread='2.5',
+         home_team=ind,	home_spread='-2.5',	over_under='47.5',	away_score='24',	home_score='27').save()
+    Game(game_id='35',	week='3',	day='Sunday',	date='43730',	away_team=bal,	away_spread='6.5',
+         home_team=kc,	home_spread='-6.5',	over_under='53.5',	away_score='28',	home_score='33').save()
+    Game(game_id='36',	week='3',	day='Sunday',	date='43730',	away_team=cin,	away_spread='5',
+         home_team=buf,	home_spread='-5',	over_under='42',	away_score='17',	home_score='21').save()
+    Game(game_id='37',	week='3',	day='Sunday',	date='43730',	away_team=den,	away_spread='8',
+         home_team=gb,	home_spread='-8',	over_under='43.5',	away_score='16',	home_score='27').save()
+    Game(game_id='38',	week='3',	day='Sunday',	date='43730',	away_team=det,	away_spread='8',
+         home_team=phi,	home_spread='-8',	over_under='48.5',	away_score='27',	home_score='24').save()
+    Game(game_id='39',	week='3',	day='Sunday',	date='43730',	away_team=mia,	away_spread='21',
+         home_team=dal,	home_spread='-21',	over_under='47.5',	away_score='6',	home_score='31').save()
+    Game(game_id='40',	week='3',	day='Sunday',	date='43730',	away_team=nyj,	away_spread='20',
+         home_team=ne,	home_spread='-20',	over_under='46',	away_score='14',	home_score='30').save()
+    Game(game_id='41',	week='3',	day='Sunday',	date='43730',	away_team=oak,	away_spread='7.5',
+         home_team=minn,	home_spread='-7.5',	over_under='43.5',	away_score='14',	home_score='34').save()
+    Game(game_id='42',	week='3',	day='Sunday',	date='43730',	away_team=car,	away_spread='-2.5',
+         home_team=ari,	home_spread='2.5',	over_under='35.5',	away_score='38',	home_score='20').save()
+    Game(game_id='43',	week='3',	day='Sunday',	date='43730',	away_team=nyg,	away_spread='6.5',
+         home_team=tb,	home_spread='-6.5',	over_under='48',	away_score='32',	home_score='31').save()
+    Game(game_id='44',	week='3',	day='Sunday',	date='43730',	away_team=hou,	away_spread='3',
+         home_team=lac,	home_spread='-3',	over_under='48',	away_score='27',	home_score='20').save()
+    Game(game_id='45',	week='3',	day='Sunday',	date='43730',	away_team=no,	away_spread='5.5',
+         home_team=sea,	home_spread='-5.5',	over_under='44.5',	away_score='33',	home_score='27').save()
+    Game(game_id='46',	week='3',	day='Sunday',	date='43730',	away_team=pit,	away_spread='7.5',
+         home_team=sf,	home_spread='-7.5',	over_under='43.5',	away_score='20',	home_score='24').save()
+    Game(game_id='47',	week='3',	day='Sunday',	date='43730',	away_team=lar,	away_spread='-1',
+         home_team=cle,	home_spread='1',	over_under='51',	away_score='20',	home_score='13').save()
+    Game(game_id='48',	week='3',	day='Monday',	date='43731',	away_team=chi,	away_spread='-4.5',
+         home_team=was,	home_spread='4.5',	over_under='42',	away_score='31',	home_score='15').save()
+    Game(game_id='49',	week='4',	day='Thursday',	date='43734',	away_team=phi,	away_spread='3.5',
+         home_team=gb,	home_spread='-3.5',	over_under='47.5',	away_score='34',	home_score='27').save()
+    Game(game_id='50',	week='4',	day='Sunday',	date='43737',	away_team=car,	away_spread='5',
+         home_team=hou,	home_spread='-5',	over_under='46',	away_score='16',	home_score='10').save()
+    Game(game_id='51',	week='4',	day='Sunday',	date='43737',	away_team=cle,	away_spread='6',
+         home_team=bal,	home_spread='-6',	over_under='46',	away_score='40',	home_score='25').save()
+    Game(game_id='52',	week='4',	day='Sunday',	date='43737',	away_team=kc,	away_spread='-6.5',
+         home_team=det,	home_spread='6.5',	over_under='53.5',	away_score='34',	home_score='30').save()
+    Game(game_id='53',	week='4',	day='Sunday',	date='43737',	away_team=lac,	away_spread='-16.5',
+         home_team=mia,	home_spread='16.5',	over_under='44.5',	away_score='30',	home_score='10').save()
+    Game(game_id='54',	week='4',	day='Sunday',	date='43737',	away_team=ne,	away_spread='-7.5',
+         home_team=buf,	home_spread='7.5',	over_under='43.5',	away_score='16',	home_score='10').save()
+    Game(game_id='55',	week='4',	day='Sunday',	date='43737',	away_team=oak,	away_spread='7',
+         home_team=ind,	home_spread='-7',	over_under='44.5',	away_score='31',	home_score='24').save()
+    Game(game_id='56',	week='4',	day='Sunday',	date='43737',	away_team=ten,	away_spread='5',
+         home_team=atl,	home_spread='-5',	over_under='46',	away_score='24',	home_score='10').save()
+    Game(game_id='57',	week='4',	day='Sunday',	date='43737',	away_team=was,	away_spread='2.5',
+         home_team=nyg,	home_spread='-2.5',	over_under='46.5',	away_score='3',	home_score='24').save()
+    Game(game_id='58',	week='4',	day='Sunday',	date='43737',	away_team=sea,	away_spread='-4',
+         home_team=ari,	home_spread='4',	over_under='47',	away_score='27',	home_score='10').save()
+    Game(game_id='59',	week='4',	day='Sunday',	date='43737',	away_team=tb,	away_spread='10.5',
+         home_team=lar,	home_spread='-10.5',	over_under='50.5',	away_score='55',	home_score='40').save()
+    Game(game_id='60',	week='4',	day='Sunday',	date='43737',	away_team=jax,	away_spread='3',
+         home_team=den,	home_spread='-3',	over_under='37.5',	away_score='26',	home_score='24').save()
+    Game(game_id='61',	week='4',	day='Sunday',	date='43737',	away_team=minn,	away_spread='3',
+         home_team=chi,	home_spread='-3',	over_under='38',	away_score='6',	home_score='16').save()
+    Game(game_id='62',	week='4',	day='Sunday',	date='43737',	away_team=dal,	away_spread='-3.5',
+         home_team=no,	home_spread='3.5',	over_under='45.5',	away_score='10',	home_score='12').save()
+    Game(game_id='63',	week='4',	day='Monday',	date='43738',	away_team=cin,	away_spread='4.5',
+         home_team=pit,	home_spread='-4.5',	over_under='43.5',	away_score='3',	home_score='27').save()
+    Game(game_id='64',	week='5',	day='Thursday',	date='43741',	away_team=lar,	away_spread='-1.5',
+         home_team=sea,	home_spread='1.5',	over_under='49',	away_score='29',	home_score='30').save()
+    Game(game_id='65',	week='5',	day='Sunday',	date='43744',	away_team=ari,	away_spread='4',
+         home_team=cin,	home_spread='-4',	over_under='48',	away_score='26',	home_score='23').save()
+    Game(game_id='66',	week='5',	day='Sunday',	date='43744',	away_team=atl,	away_spread='5',
+         home_team=hou,	home_spread='-5',	over_under='49',	away_score='32',	home_score='53').save()
+    Game(game_id='67',	week='5',	day='Sunday',	date='43744',	away_team=bal,	away_spread='-4',
+         home_team=pit,	home_spread='4',	over_under='42.5',	away_score='26',	home_score='23').save()
+    Game(game_id='68',	week='5',	day='Sunday',	date='43744',	away_team=buf,	away_spread='2.5',
+         home_team=ten,	home_spread='-2.5',	over_under='38.5',	away_score='14',	home_score='7').save()
+    Game(game_id='69',	week='5',	day='Sunday',	date='43744',	away_team=chi,	away_spread='-4.5',
+         home_team=oak,	home_spread='4.5',	over_under='41.5',	away_score='21',	home_score='24').save()
+    Game(game_id='70',	week='5',	day='Sunday',	date='43744',	away_team=jax,	away_spread='3',
+         home_team=car,	home_spread='-3',	over_under='41',	away_score='27',	home_score='34').save()
+    Game(game_id='71',	week='5',	day='Sunday',	date='43744',	away_team=minn,	away_spread='-5',
+         home_team=nyg,	home_spread='5',	over_under='44.5',	away_score='28',	home_score='10').save()
+    Game(game_id='72',	week='5',	day='Sunday',	date='43744',	away_team=ne,	away_spread='-14',
+         home_team=was,	home_spread='14',	over_under='45.5',	away_score='33',	home_score='7').save()
+    Game(game_id='73',	week='5',	day='Sunday',	date='43744',	away_team=nyj,	away_spread='14',
+         home_team=phi,	home_spread='-14',	over_under='44.5',	away_score='6',	home_score='31').save()
+    Game(game_id='74',	week='5',	day='Sunday',	date='43744',	away_team=tb,	away_spread='4.5',
+         home_team=no,	home_spread='-4.5',	over_under='47.5',	away_score='24',	home_score='31').save()
+    Game(game_id='75',	week='5',	day='Sunday',	date='43744',	away_team=den,	away_spread='6.5',
+         home_team=lac,	home_spread='-6.5',	over_under='44',	away_score='20',	home_score='13').save()
+    Game(game_id='76',	week='5',	day='Sunday',	date='43744',	away_team=gb,	away_spread='3.5',
+         home_team=dal,	home_spread='-3.5',	over_under='47',	away_score='34',	home_score='24').save()
+    Game(game_id='77',	week='5',	day='Sunday',	date='43744',	away_team=ind,	away_spread='9.5',
+         home_team=kc,	home_spread='-9.5',	over_under='57',	away_score='19',	home_score='13').save()
+    Game(game_id='78',	week='5',	day='Monday',	date='43745',	away_team=cle,	away_spread='3',
+         home_team=sf,	home_spread='-3',	over_under='47.5',	away_score='3',	home_score='31').save()
+    Game(game_id='79',	week='6',	day='Thursday',	date='43748',	away_team=nyg,	away_spread='15.5',
+         home_team=ne,	home_spread='-15.5',	over_under='46',	away_score='14',	home_score='35').save()
+    Game(game_id='80',	week='6',	day='Sunday',	date='43751',	away_team=car,	away_spread='1',
+         home_team=tb,	home_spread='-1',	over_under='46',	away_score='37',	home_score='26').save()
+    Game(game_id='81',	week='6',	day='Sunday',	date='43751',	away_team=cin,	away_spread='10.5',
+         home_team=bal,	home_spread='-10.5',	over_under='47.5',	away_score='17',	home_score='23').save()
+    Game(game_id='82',	week='6',	day='Sunday',	date='43751',	away_team=hou,	away_spread='6.5',
+         home_team=kc,	home_spread='-6.5',	over_under='55.5',	away_score='31',	home_score='24').save()
+    Game(game_id='83',	week='6',	day='Sunday',	date='43751',	away_team=no,	away_spread='-2',
+         home_team=jax,	home_spread='2',	over_under='44',	away_score='13',	home_score='6').save()
+    Game(game_id='84',	week='6',	day='Sunday',	date='43751',	away_team=phi,	away_spread='3',
+         home_team=minn,	home_spread='-3',	over_under='44',	away_score='20',	home_score='38').save()
+    Game(game_id='85',	week='6',	day='Sunday',	date='43751',	away_team=sea,	away_spread='-1',
+         home_team=cle,	home_spread='1',	over_under='47.5',	away_score='32',	home_score='28').save()
+    Game(game_id='86',	week='6',	day='Sunday',	date='43751',	away_team=was,	away_spread='-4.5',
+         home_team=mia,	home_spread='4.5',	over_under='41',	away_score='17',	home_score='16').save()
+    Game(game_id='87',	week='6',	day='Sunday',	date='43751',	away_team=atl,	away_spread='-2.5',
+         home_team=ari,	home_spread='2.5',	over_under='49.5',	away_score='33',	home_score='34').save()
+    Game(game_id='88',	week='6',	day='Sunday',	date='43751',	away_team=sf,	away_spread='3',
+         home_team=lar,	home_spread='-3',	over_under='48.5',	away_score='20',	home_score='7').save()
+    Game(game_id='89',	week='6',	day='Sunday',	date='43751',	away_team=dal,	away_spread='-7.5',
+         home_team=nyj,	home_spread='7.5',	over_under='43.5',	away_score='22',	home_score='24').save()
+    Game(game_id='90',	week='6',	day='Sunday',	date='43751',	away_team=ten,	away_spread='2.5',
+         home_team=den,	home_spread='-2.5',	over_under='40',	away_score='0',	home_score='16').save()
+    Game(game_id='91',	week='6',	day='Sunday',	date='43751',	away_team=pit,	away_spread='6',
+         home_team=lac,	home_spread='-6',	over_under='41.5',	away_score='24',	home_score='27').save()
+    Game(game_id='92',	week='6',	day='Monday',	date='43752',	away_team=det,	away_spread='6',
+         home_team=gb,	home_spread='-6',	over_under='47',	away_score='22',	home_score='23').save()
+    Game(game_id='93',	week='7',	day='Thursday',	date='43755',	away_team=kc,	away_spread='-3.5',
+         home_team=den,	home_spread='3.5',	over_under='49',	away_score='30',	home_score='6').save()
+    Game(game_id='94',	week='7',	day='Sunday',	date='43758',	away_team=ari,	away_spread='3',
+         home_team=nyg,	home_spread='-3',	over_under='49.5',	away_score='27',	home_score='21').save()
+    Game(game_id='95',	week='7',	day='Sunday',	date='43758',	away_team=hou,	away_spread='1',
+         home_team=ind,	home_spread='-1',	over_under='48',	away_score='23',	home_score='30').save()
+    Game(game_id='96',	week='7',	day='Sunday',	date='43758',	away_team=jax,	away_spread='-3',
+         home_team=cin,	home_spread='3',	over_under='43.5',	away_score='27',	home_score='17').save()
+    Game(game_id='97',	week='7',	day='Sunday',	date='43758',	away_team=lar,	away_spread='-3',
+         home_team=atl,	home_spread='3',	over_under='53.5',	away_score='37',	home_score='10').save()
+    Game(game_id='98',	week='7',	day='Sunday',	date='43758',	away_team=mia,	away_spread='16',
+         home_team=buf,	home_spread='-16',	over_under='39.5',	away_score='21',	home_score='31').save()
+    Game(game_id='99',	week='7',	day='Sunday',	date='43758',	away_team=minn,	away_spread='2',
+         home_team=det,	home_spread='-2',	over_under='44',	away_score='42',	home_score='30').save()
+    Game(game_id='100',	week='7',	day='Sunday',	date='43758',	away_team=oak,	away_spread='6.5',
+         home_team=gb,	home_spread='-6.5',	over_under='46.5',	away_score='24',	home_score='42').save()
+    Game(game_id='101',	week='7',	day='Sunday',	date='43758',	away_team=sf,	away_spread='-9.5',
+         home_team=was,	home_spread='9.5',	over_under='42.5',	away_score='9',	home_score='0').save()
+    Game(game_id='102',	week='7',	day='Sunday',	date='43758',	away_team=lac,	away_spread='1',
+         home_team=ten,	home_spread='-1',	over_under='38.5',	away_score='20',	home_score='23').save()
+    Game(game_id='103',	week='7',	day='Sunday',	date='43758',	away_team=bal,	away_spread='4',
+         home_team=sea,	home_spread='-4',	over_under='50.5',	away_score='30',	home_score='16').save()
+    Game(game_id='104',	week='7',	day='Sunday',	date='43758',	away_team=no,	away_spread='4',
+         home_team=chi,	home_spread='-4',	over_under='39.5',	away_score='36',	home_score='25').save()
+    Game(game_id='105',	week='7',	day='Sunday',	date='43758',	away_team=phi,	away_spread='3',
+         home_team=dal,	home_spread='-3',	over_under='48.5',	away_score='10',	home_score='37').save()
+    Game(game_id='106',	week='7',	day='Monday',	date='43759',	away_team=ne,	away_spread='-10',
+         home_team=nyj,	home_spread='10',	over_under='42.5',	away_score='33',	home_score='0').save()
+    Game(game_id='107',	week='8',	day='Thursday',	date='43762',	away_team=was,	away_spread='16',
+         home_team=minn,	home_spread='-16',	over_under='41',	away_score='9',	home_score='19').save()
+    Game(game_id='108',	week='8',	day='Sunday',	date='43765',	away_team=ari,	away_spread='10.5',
+         home_team=no,	home_spread='-10.5',	over_under='49.5',	away_score='9',	home_score='31').save()
+    Game(game_id='109',	week='8',	day='Sunday',	date='43765',	away_team=cin,	away_spread='12.5',
+         home_team=lar,	home_spread='-12.5',	over_under='48',	away_score='10',	home_score='24').save()
+    Game(game_id='110',	week='8',	day='Sunday',	date='43765',	away_team=lac,	away_spread='5',
+         home_team=chi,	home_spread='-5',	over_under='40',	away_score='17',	home_score='16').save()
+    Game(game_id='111',	week='8',	day='Sunday',	date='43765',	away_team=nyg,	away_spread='7',
+         home_team=det,	home_spread='-7',	over_under='48.5',	away_score='26',	home_score='31').save()
+    Game(game_id='112',	week='8',	day='Sunday',	date='43765',	away_team=nyj,	away_spread='5',
+         home_team=jax,	home_spread='-5',	over_under='40.5',	away_score='15',	home_score='29').save()
+    Game(game_id='113',	week='8',	day='Sunday',	date='43765',	away_team=oak,	away_spread='6.5',
+         home_team=hou,	home_spread='-6.5',	over_under='50.5',	away_score='24',	home_score='27').save()
+    Game(game_id='114',	week='8',	day='Sunday',	date='43765',	away_team=phi,	away_spread='1',
+         home_team=buf,	home_spread='-1',	over_under='43.5',	away_score='31',	home_score='13').save()
+    Game(game_id='115',	week='8',	day='Sunday',	date='43765',	away_team=sea,	away_spread='-7.5',
+         home_team=atl,	home_spread='7.5',	over_under='51',	away_score='27',	home_score='20').save()
+    Game(game_id='116',	week='8',	day='Sunday',	date='43765',	away_team=tb,	away_spread='2.5',
+         home_team=ten,	home_spread='-2.5',	over_under='46.5',	away_score='23',	home_score='27').save()
+    Game(game_id='117',	week='8',	day='Sunday',	date='43765',	away_team=car,	away_spread='6',
+         home_team=sf,	home_spread='-6',	over_under='42',	away_score='13',	home_score='51').save()
+    Game(game_id='118',	week='8',	day='Sunday',	date='43765',	away_team=cle,	away_spread='10.5',
+         home_team=ne,	home_spread='-10.5',	over_under='46',	away_score='13',	home_score='27').save()
+    Game(game_id='119',	week='8',	day='Sunday',	date='43765',	away_team=den,	away_spread='6',
+         home_team=ind,	home_spread='-6',	over_under='43.5',	away_score='13',	home_score='15').save()
+    Game(game_id='120',	week='8',	day='Sunday',	date='43765',	away_team=gb,	away_spread='-3',
+         home_team=kc,	home_spread='3',	over_under='48',	away_score='31',	home_score='24').save()
+    Game(game_id='121',	week='8',	day='Monday',	date='43766',	away_team=mia,	away_spread='14.5',
+         home_team=pit,	home_spread='-14.5',	over_under='43',	away_score='14',	home_score='27').save()
+    Game(game_id='122',	week='9',	day='Thursday',	date='43769',	away_team=sf,	away_spread='-8',
+         home_team=ari,	home_spread='8',	over_under='44',	away_score='28',	home_score='25').save()
+    Game(game_id='123',	week='9',	day='Sunday',	date='43772',	away_team=hou,	away_spread='-2.5',
+         home_team=jax,	home_spread='2.5',	over_under='47',	away_score='26',	home_score='3').save()
+    Game(game_id='124',	week='9',	day='Sunday',	date='43772',	away_team=chi,	away_spread='5',
+         home_team=phi,	home_spread='-5',	over_under='44',	away_score='14',	home_score='22').save()
+    Game(game_id='125',	week='9',	day='Sunday',	date='43772',	away_team=ind,	away_spread='1.5',
+         home_team=pit,	home_spread='-1.5',	over_under='43',	away_score='24',	home_score='26').save()
+    Game(game_id='126',	week='9',	day='Sunday',	date='43772',	away_team=minn,	away_spread='-3.5',
+         home_team=kc,	home_spread='3.5',	over_under='46.5',	away_score='23',	home_score='26').save()
+    Game(game_id='127',	week='9',	day='Sunday',	date='43772',	away_team=nyj,	away_spread='-3',
+         home_team=mia,	home_spread='3',	over_under='40',	away_score='18',	home_score='26').save()
+    Game(game_id='128',	week='9',	day='Sunday',	date='43772',	away_team=ten,	away_spread='3.5',
+         home_team=car,	home_spread='-3.5',	over_under='41',	away_score='20',	home_score='30').save()
+    Game(game_id='129',	week='9',	day='Sunday',	date='43772',	away_team=was,	away_spread='10.5',
+         home_team=buf,	home_spread='-10.5',	over_under='37',	away_score='9',	home_score='24').save()
+    Game(game_id='130',	week='9',	day='Sunday',	date='43772',	away_team=det,	away_spread='2',
+         home_team=oak,	home_spread='-2',	over_under='51.5',	away_score='24',	home_score='31').save()
+    Game(game_id='131',	week='9',	day='Sunday',	date='43772',	away_team=tb,	away_spread='6.5',
+         home_team=sea,	home_spread='-6.5',	over_under='53',	away_score='34',	home_score='40').save()
+    Game(game_id='132',	week='9',	day='Sunday',	date='43772',	away_team=cle,	away_spread='1.5',
+         home_team=den,	home_spread='-1.5',	over_under='43',	away_score='19',	home_score='24').save()
+    Game(game_id='133',	week='9',	day='Sunday',	date='43772',	away_team=gb,	away_spread='-3',
+         home_team=lac,	home_spread='3',	over_under='46',	away_score='11',	home_score='26').save()
+    Game(game_id='134',	week='9',	day='Sunday',	date='43772',	away_team=ne,	away_spread='-4',
+         home_team=bal,	home_spread='4',	over_under='45',	away_score='20',	home_score='37').save()
+    Game(game_id='135',	week='9',	day='Monday',	date='43773',	away_team=dal,	away_spread='-7.5',
+         home_team=nyg,	home_spread='7.5',	over_under='48',	away_score='37',	home_score='18').save()
+    Game(game_id='136',	week='10',	day='Thursday',	date='43776',	away_team=lac,	away_spread='1.5',
+         home_team=oak,	home_spread='-1.5',	over_under='47.5',	away_score='24',	home_score='26').save()
+    Game(game_id='137',	week='10',	day='Sunday',	date='43779',	away_team=ari,	away_spread='6',
+         home_team=tb,	home_spread='-6',	over_under='54',	away_score='27',	home_score='30').save()
+    Game(game_id='138',	week='10',	day='Sunday',	date='43779',	away_team=atl,	away_spread='12',
+         home_team=no,	home_spread='-12',	over_under='51',	away_score='26',	home_score='9').save()
+    Game(game_id='139',	week='10',	day='Sunday',	date='43779',	away_team=bal,	away_spread='-10.5',
+         home_team=cin,	home_spread='10.5',	over_under='46.5',	away_score='49',	home_score='13').save()
+    Game(game_id='140',	week='10',	day='Sunday',	date='43779',	away_team=buf,	away_spread='2.5',
+         home_team=cle,	home_spread='-2.5',	over_under='41.5',	away_score='16',	home_score='19').save()
+    Game(game_id='141',	week='10',	day='Sunday',	date='43779',	away_team=car,	away_spread='6',
+         home_team=gb,	home_spread='-6',	over_under='48',	away_score='16',	home_score='24').save()
+    Game(game_id='142',	week='10',	day='Sunday',	date='43779',	away_team=det,	away_spread='3',
+         home_team=chi,	home_spread='-3',	over_under='44',	away_score='13',	home_score='20').save()
+    Game(game_id='143',	week='10',	day='Sunday',	date='43779',	away_team=kc,	away_spread='-6',
+         home_team=ten,	home_spread='6',	over_under='48',	away_score='32',	home_score='35').save()
+    Game(game_id='144',	week='10',	day='Sunday',	date='43779',	away_team=nyg,	away_spread='-3',
+         home_team=nyj,	home_spread='3',	over_under='43.5',	away_score='27',	home_score='34').save()
+    Game(game_id='145',	week='10',	day='Sunday',	date='43779',	away_team=mia,	away_spread='11.5',
+         home_team=ind,	home_spread='-11.5',	over_under='42.5',	away_score='16',	home_score='12').save()
+    Game(game_id='146',	week='10',	day='Sunday',	date='43779',	away_team=lar,	away_spread='-4',
+         home_team=pit,	home_spread='4',	over_under='45',	away_score='12',	home_score='17').save()
+    Game(game_id='147',	week='10',	day='Sunday',	date='43779',	away_team=minn,	away_spread='3',
+         home_team=dal,	home_spread='-3',	over_under='48',	away_score='28',	home_score='24').save()
+    Game(game_id='148',	week='10',	day='Monday',	date='43780',	away_team=sea,	away_spread='6.5',
+         home_team=sf,	home_spread='-6.5',	over_under='44.5',	away_score='27',	home_score='24').save()
+    Game(game_id='149',	week='11',	day='Thursday',	date='43783',	away_team=pit,	away_spread='3',
+         home_team=cle,	home_spread='-3',	over_under='40.5',	away_score='7',	home_score='21').save()
+    Game(game_id='150',	week='11',	day='Sunday',	date='43786',	away_team=atl,	away_spread='6.5',
+         home_team=car,	home_spread='-6.5',	over_under='50.5',	away_score='29',	home_score='3').save()
+    Game(game_id='151',	week='11',	day='Sunday',	date='43786',	away_team=buf,	away_spread='-6.5',
+         home_team=mia,	home_spread='6.5',	over_under='39',	away_score='37',	home_score='20').save()
+    Game(game_id='152',	week='11',	day='Sunday',	date='43786',	away_team=dal,	away_spread='-7',
+         home_team=det,	home_spread='7',	over_under='46.5',	away_score='35',	home_score='27').save()
+    Game(game_id='153',	week='11',	day='Sunday',	date='43786',	away_team=den,	away_spread='10.5',
+         home_team=minn,	home_spread='-10.5',	over_under='39.5',	away_score='23',	home_score='27').save()
+    Game(game_id='154',	week='11',	day='Sunday',	date='43786',	away_team=hou,	away_spread='4.5',
+         home_team=bal,	home_spread='-4.5',	over_under='50',	away_score='7',	home_score='41').save()
+    Game(game_id='155',	week='11',	day='Sunday',	date='43786',	away_team=jax,	away_spread='2.5',
+         home_team=ind,	home_spread='-2.5',	over_under='43.5',	away_score='13',	home_score='33').save()
+    Game(game_id='156',	week='11',	day='Sunday',	date='43786',	away_team=no,	away_spread='-5.5',
+         home_team=tb,	home_spread='5.5',	over_under='52',	away_score='34',	home_score='17').save()
+    Game(game_id='157',	week='11',	day='Sunday',	date='43786',	away_team=nyj,	away_spread='1',
+         home_team=was,	home_spread='-1',	over_under='37.5',	away_score='34',	home_score='17').save()
+    Game(game_id='158',	week='11',	day='Sunday',	date='43786',	away_team=ari,	away_spread='11.5',
+         home_team=sf,	home_spread='-11.5',	over_under='46',	away_score='26',	home_score='36').save()
+    Game(game_id='159',	week='11',	day='Sunday',	date='43786',	away_team=cin,	away_spread='10',
+         home_team=oak,	home_spread='-10',	over_under='48.5',	away_score='10',	home_score='17').save()
+    Game(game_id='160',	week='11',	day='Sunday',	date='43786',	away_team=ne,	away_spread='-3.5',
+         home_team=phi,	home_spread='3.5',	over_under='45.5',	away_score='17',	home_score='10').save()
+    Game(game_id='161',	week='11',	day='Sunday',	date='43786',	away_team=chi,	away_spread='7.5',
+         home_team=lar,	home_spread='-7.5',	over_under='41',	away_score='7',	home_score='17').save()
+    Game(game_id='162',	week='11',	day='Monday',	date='43787',	away_team=kc,	away_spread='-4.5',
+         home_team=lac,	home_spread='4.5',	over_under='53',	away_score='24',	home_score='17').save()
+    Game(game_id='163',	week='12',	day='Thursday',	date='43790',	away_team=ind,	away_spread='3.5',
+         home_team=hou,	home_spread='-3.5',	over_under='46.5',	away_score='17',	home_score='20').save()
+    Game(game_id='164',	week='12',	day='Sunday',	date='43793',	away_team=car,	away_spread='8.5',
+         home_team=no,	home_spread='-8.5',	over_under='48',	away_score='31',	home_score='34').save()
+    Game(game_id='165',	week='12',	day='Sunday',	date='43793',	away_team=den,	away_spread='5',
+         home_team=buf,	home_spread='-5',	over_under='36.5',	away_score='3',	home_score='20').save()
+    Game(game_id='166',	week='12',	day='Sunday',	date='43793',	away_team=det,	away_spread='-2.5',
+         home_team=was,	home_spread='2.5',	over_under='41.5',	away_score='16',	home_score='19').save()
+    Game(game_id='167',	week='12',	day='Sunday',	date='43793',	away_team=mia,	away_spread='11',
+         home_team=cle,	home_spread='-11',	over_under='44.5',	away_score='24',	home_score='41').save()
+    Game(game_id='168',	week='12',	day='Sunday',	date='43793',	away_team=nyg,	away_spread='6',
+         home_team=chi,	home_spread='-6',	over_under='40.5',	away_score='14',	home_score='19').save()
+    Game(game_id='169',	week='12',	day='Sunday',	date='43793',	away_team=oak,	away_spread='-3.5',
+         home_team=nyj,	home_spread='3.5',	over_under='47',	away_score='3',	home_score='34').save()
+    Game(game_id='170',	week='12',	day='Sunday',	date='43793',	away_team=pit,	away_spread='-6',
+         home_team=cin,	home_spread='6',	over_under='39.5',	away_score='16',	home_score='10').save()
+    Game(game_id='171',	week='12',	day='Sunday',	date='43793',	away_team=tb,	away_spread='4.5',
+         home_team=atl,	home_spread='-4.5',	over_under='54',	away_score='35',	home_score='22').save()
+    Game(game_id='172',	week='12',	day='Sunday',	date='43793',	away_team=jax,	away_spread='3',
+         home_team=ten,	home_spread='-3',	over_under='41.5',	away_score='20',	home_score='42').save()
+    Game(game_id='173',	week='12',	day='Sunday',	date='43793',	away_team=dal,	away_spread='6.5',
+         home_team=ne,	home_spread='-6.5',	over_under='46',	away_score='9',	home_score='13').save()
+    Game(game_id='174',	week='12',	day='Sunday',	date='43793',	away_team=gb,	away_spread='3',
+         home_team=sf,	home_spread='-3',	over_under='45.5',	away_score='8',	home_score='37').save()
+    Game(game_id='175',	week='12',	day='Sunday',	date='43793',	away_team=sea,	away_spread='3',
+         home_team=phi,	home_spread='-3',	over_under='49',	away_score='17',	home_score='9').save()
+    Game(game_id='176',	week='12',	day='Monday',	date='43794',	away_team=bal,	away_spread='3',
+         home_team=lar,	home_spread='-3',	over_under='46.5',	away_score='45',	home_score='6').save()
+    Game(game_id='177',	week='13',	day='Thursday',	date='43797',	away_team=chi,	away_spread='-1.5',
+         home_team=det,	home_spread='1.5',	over_under='38.5',	away_score='24',	home_score='20').save()
+    Game(game_id='178',	week='13',	day='Thursday',	date='43797',	away_team=buf,	away_spread='7.5',
+         home_team=dal,	home_spread='-7.5',	over_under='44.5',	away_score='26',	home_score='15').save()
+    Game(game_id='179',	week='13',	day='Thursday',	date='43797',	away_team=no,	away_spread='-6.5',
+         home_team=atl,	home_spread='6.5',	over_under='50',	away_score='26',	home_score='18').save()
+    Game(game_id='180',	week='13',	day='Sunday',	date='43800',	away_team=gb,	away_spread='-6',
+         home_team=nyg,	home_spread='6',	over_under='46',	away_score='31',	home_score='13').save()
+    Game(game_id='181',	week='13',	day='Sunday',	date='43800',	away_team=nyj,	away_spread='-3.5',
+         home_team=cin,	home_spread='3.5',	over_under='39.5',	away_score='6',	home_score='22').save()
+    Game(game_id='182',	week='13',	day='Sunday',	date='43800',	away_team=oak,	away_spread='10',
+         home_team=kc,	home_spread='-10',	over_under='54.5',	away_score='9',	home_score='40').save()
+    Game(game_id='183',	week='13',	day='Sunday',	date='43800',	away_team=phi,	away_spread='-7.5',
+         home_team=mia,	home_spread='7.5',	over_under='46',	away_score='31',	home_score='37').save()
+    Game(game_id='184',	week='13',	day='Sunday',	date='43800',	away_team=sf,	away_spread='5.5',
+         home_team=bal,	home_spread='-5.5',	over_under='46',	away_score='17',	home_score='20').save()
+    Game(game_id='185',	week='13',	day='Sunday',	date='43800',	away_team=tb,	away_spread='1',
+         home_team=jax,	home_spread='-1',	over_under='49',	away_score='28',	home_score='11').save()
+    Game(game_id='186',	week='13',	day='Sunday',	date='43800',	away_team=ten,	away_spread='3',
+         home_team=ind,	home_spread='-3',	over_under='43',	away_score='31',	home_score='17').save()
+    Game(game_id='187',	week='13',	day='Sunday',	date='43800',	away_team=was,	away_spread='10',
+         home_team=car,	home_spread='-10',	over_under='40.5',	away_score='29',	home_score='21').save()
+    Game(game_id='188',	week='13',	day='Sunday',	date='43800',	away_team=lar,	away_spread='-3',
+         home_team=ari,	home_spread='3',	over_under='46',	away_score='34',	home_score='7').save()
+    Game(game_id='189',	week='13',	day='Sunday',	date='43800',	away_team=cle,	away_spread='-1',
+         home_team=pit,	home_spread='1',	over_under='40',	away_score='13',	home_score='20').save()
+    Game(game_id='190',	week='13',	day='Sunday',	date='43800',	away_team=lac,	away_spread='0',
+         home_team=den,	home_spread='0',	over_under='38.5',	away_score='20',	home_score='23').save()
+    Game(game_id='191',	week='13',	day='Sunday',	date='43800',	away_team=ne,	away_spread='-3.5',
+         home_team=hou,	home_spread='3.5',	over_under='45',	away_score='22',	home_score='28').save()
+    Game(game_id='192',	week='13',	day='Monday',	date='43801',	away_team=minn,	away_spread='3',
+         home_team=sea,	home_spread='-3',	over_under='48.5',	away_score='30',	home_score='34').save()
+    Game(game_id='193',	week='14',	day='Thursday',	date='43804',	away_team=dal,	away_spread='-2.5',
+         home_team=chi,	home_spread='2.5',	over_under='43.5',	away_score='24',	home_score='31').save()
+    Game(game_id='194',	week='14',	day='Sunday',	date='43807',	away_team=bal,	away_spread='-5.5',
+         home_team=buf,	home_spread='5.5',	over_under='43',	away_score='24',	home_score='17').save()
+    Game(game_id='195',	week='14',	day='Sunday',	date='43807',	away_team=car,	away_spread='2',
+         home_team=atl,	home_spread='-2',	over_under='48',	away_score='20',	home_score='40').save()
+    Game(game_id='196',	week='14',	day='Sunday',	date='43807',	away_team=cin,	away_spread='8',
+         home_team=cle,	home_spread='-8',	over_under='42.5',	away_score='19',	home_score='27').save()
+    Game(game_id='197',	week='14',	day='Sunday',	date='43807',	away_team=den,	away_spread='9.5',
+         home_team=hou,	home_spread='-9.5',	over_under='41.5',	away_score='38',	home_score='24').save()
+    Game(game_id='198',	week='14',	day='Sunday',	date='43807',	away_team=det,	away_spread='13',
+         home_team=minn,	home_spread='-13',	over_under='43.5',	away_score='7',	home_score='20').save()
+    Game(game_id='199',	week='14',	day='Sunday',	date='43807',	away_team=ind,	away_spread='3.5',
+         home_team=tb,	home_spread='-3.5',	over_under='49.5',	away_score='35',	home_score='38').save()
+    Game(game_id='200',	week='14',	day='Sunday',	date='43807',	away_team=mia,	away_spread='5.5',
+         home_team=nyj,	home_spread='-5.5',	over_under='43.5',	away_score='21',	home_score='22').save()
+    Game(game_id='201',	week='14',	day='Sunday',	date='43807',	away_team=sf,	away_spread='3.5',
+         home_team=no,	home_spread='-3.5',	over_under='45.5',	away_score='48',	home_score='46').save()
+    Game(game_id='202',	week='14',	day='Sunday',	date='43807',	away_team=was,	away_spread='14',
+         home_team=gb,	home_spread='-14',	over_under='42.5',	away_score='15',	home_score='20').save()
+    Game(game_id='203',	week='14',	day='Sunday',	date='43807',	away_team=lac,	away_spread='-3',
+         home_team=jax,	home_spread='3',	over_under='43',	away_score='45',	home_score='10').save()
+    Game(game_id='204',	week='14',	day='Sunday',	date='43807',	away_team=kc,	away_spread='3',
+         home_team=ne,	home_spread='-3',	over_under='49.5',	away_score='23',	home_score='16').save()
+    Game(game_id='205',	week='14',	day='Sunday',	date='43807',	away_team=pit,	away_spread='-2.5',
+         home_team=ari,	home_spread='2.5',	over_under='43.5',	away_score='23',	home_score='17').save()
+    Game(game_id='206',	week='14',	day='Sunday',	date='43807',	away_team=ten,	away_spread='-2.5',
+         home_team=oak,	home_spread='2.5',	over_under='46.5',	away_score='42',	home_score='21').save()
+    Game(game_id='207',	week='14',	day='Sunday',	date='43807',	away_team=sea,	away_spread='-2.5',
+         home_team=lar,	home_spread='2.5',	over_under='46.5',	away_score='12',	home_score='28').save()
+    Game(game_id='208',	week='14',	day='Monday',	date='43808',	away_team=nyg,	away_spread='8.5',
+         home_team=phi,	home_spread='-8.5',	over_under='47',	away_score='17',	home_score='23').save()
+    Game(game_id='209',	week='15',	day='Thursday',	date='43811',	away_team=nyj,	away_spread='15',
+         home_team=bal,	home_spread='-15',	over_under='44.5',	away_score='21',	home_score='42').save()
+    Game(game_id='210',	week='15',	day='Sunday',	date='43814',	away_team=buf,	away_spread='1.5',
+         home_team=pit,	home_spread='-1.5',	over_under='37',	away_score='17',	home_score='10').save()
+    Game(game_id='211',	week='15',	day='Sunday',	date='43814',	away_team=chi,	away_spread='5',
+         home_team=gb,	home_spread='-5',	over_under='41',	away_score='13',	home_score='21').save()
+    Game(game_id='212',	week='15',	day='Sunday',	date='43814',	away_team=den,	away_spread='12',
+         home_team=kc,	home_spread='-12',	over_under='47',	away_score='3',	home_score='23').save()
+    Game(game_id='213',	week='15',	day='Sunday',	date='43814',	away_team=hou,	away_spread='3',
+         home_team=ten,	home_spread='-3',	over_under='48.5',	away_score='24',	home_score='21').save()
+    Game(game_id='214',	week='15',	day='Sunday',	date='43814',	away_team=mia,	away_spread='3.5',
+         home_team=nyg,	home_spread='-3.5',	over_under='46.5',	away_score='20',	home_score='36').save()
+    Game(game_id='215',	week='15',	day='Sunday',	date='43814',	away_team=ne,	away_spread='-8.5',
+         home_team=cin,	home_spread='8.5',	over_under='40.5',	away_score='34',	home_score='13').save()
+    Game(game_id='216',	week='15',	day='Sunday',	date='43814',	away_team=phi,	away_spread='-4.5',
+         home_team=was,	home_spread='4.5',	over_under='40',	away_score='37',	home_score='27').save()
+    Game(game_id='217',	week='15',	day='Sunday',	date='43814',	away_team=sea,	away_spread='-6',
+         home_team=car,	home_spread='6',	over_under='48.5',	away_score='30',	home_score='24').save()
+    Game(game_id='218',	week='15',	day='Sunday',	date='43814',	away_team=tb,	away_spread='-3',
+         home_team=det,	home_spread='3',	over_under='46.5',	away_score='38',	home_score='17').save()
+    Game(game_id='219',	week='15',	day='Sunday',	date='43814',	away_team=cle,	away_spread='-2',
+         home_team=ari,	home_spread='2',	over_under='46.5',	away_score='24',	home_score='38').save()
+    Game(game_id='220',	week='15',	day='Sunday',	date='43814',	away_team=jax,	away_spread='5.5',
+         home_team=oak,	home_spread='-5.5',	over_under='45.5',	away_score='20',	home_score='16').save()
+    Game(game_id='221',	week='15',	day='Sunday',	date='43814',	away_team=atl,	away_spread='11',
+         home_team=sf,	home_spread='-11',	over_under='46.5',	away_score='29',	home_score='22').save()
+    Game(game_id='222',	week='15',	day='Sunday',	date='43814',	away_team=lar,	away_spread='3',
+         home_team=dal,	home_spread='-3',	over_under='48',	away_score='21',	home_score='44').save()
+    Game(game_id='223',	week='15',	day='Sunday',	date='43814',	away_team=minn,	away_spread='-2.5',
+         home_team=lac,	home_spread='2.5',	over_under='45.5',	away_score='39',	home_score='10').save()
+    Game(game_id='224',	week='15',	day='Monday',	date='43815',	away_team=ind,	away_spread='8',
+         home_team=no,	home_spread='-8',	over_under='45.5',	away_score='7',	home_score='34').save()
+    Game(game_id='225',	week='16',	day='Sunday',	date='43821',	away_team=bal,	away_spread='-9.5',
+         home_team=cle,	home_spread='9.5',	over_under='49',	away_score='31',	home_score='15').save()
+    Game(game_id='226',	week='16',	day='Sunday',	date='43821',	away_team=buf,	away_spread='6.5',
+         home_team=ne,	home_spread='-6.5',	over_under='38.5',	away_score='17',	home_score='24').save()
+    Game(game_id='227',	week='16',	day='Sunday',	date='43821',	away_team=car,	away_spread='6.5',
+         home_team=ind,	home_spread='-6.5',	over_under='46',	away_score='6',	home_score='38').save()
+    Game(game_id='228',	week='16',	day='Sunday',	date='43821',	away_team=cin,	away_spread='1',
+         home_team=mia,	home_spread='-1',	over_under='46',	away_score='35',	home_score='38').save()
+    Game(game_id='229',	week='16',	day='Sunday',	date='43821',	away_team=det,	away_spread='7',
+         home_team=den,	home_spread='-7',	over_under='37.5',	away_score='17',	home_score='27').save()
+    Game(game_id='230',	week='16',	day='Sunday',	date='43821',	away_team=hou,	away_spread='1.5',
+         home_team=tb,	home_spread='-1.5',	over_under='53',	away_score='23',	home_score='20').save()
+    Game(game_id='231',	week='16',	day='Sunday',	date='43821',	away_team=jax,	away_spread='7.5',
+         home_team=atl,	home_spread='-7.5',	over_under='45.5',	away_score='12',	home_score='24').save()
+    Game(game_id='232',	week='16',	day='Sunday',	date='43821',	away_team=lar,	away_spread='6',
+         home_team=sf,	home_spread='-6',	over_under='46',	away_score='31',	home_score='34').save()
+    Game(game_id='233',	week='16',	day='Sunday',	date='43821',	away_team=no,	away_spread='-3',
+         home_team=ten,	home_spread='3',	over_under='51.5',	away_score='38',	home_score='28').save()
+    Game(game_id='234',	week='16',	day='Sunday',	date='43821',	away_team=nyg,	away_spread='2.5',
+         home_team=was,	home_spread='-2.5',	over_under='42',	away_score='41',	home_score='35').save()
+    Game(game_id='235',	week='16',	day='Sunday',	date='43821',	away_team=oak,	away_spread='5.5',
+         home_team=lac,	home_spread='-5.5',	over_under='47',	away_score='24',	home_score='17').save()
+    Game(game_id='236',	week='16',	day='Sunday',	date='43821',	away_team=pit,	away_spread='-3',
+         home_team=nyj,	home_spread='3',	over_under='39',	away_score='10',	home_score='16').save()
+    Game(game_id='237',	week='16',	day='Sunday',	date='43821',	away_team=ari,	away_spread='10',
+         home_team=sea,	home_spread='-10',	over_under='51',	away_score='27',	home_score='13').save()
+    Game(game_id='238',	week='16',	day='Sunday',	date='43821',	away_team=dal,	away_spread='-2',
+         home_team=phi,	home_spread='2',	over_under='47.5',	away_score='9',	home_score='17').save()
+    Game(game_id='239',	week='16',	day='Sunday',	date='43821',	away_team=kc,	away_spread='5',
+         home_team=chi,	home_spread='-5',	over_under='45',	away_score='26',	home_score='3').save()
+    Game(game_id='240',	week='16',	day='Monday',	date='43822',	away_team=gb,	away_spread='4',
+         home_team=minn,	home_spread='-4',	over_under='46.5',	away_score='23',	home_score='10').save()
+    Game(game_id='241',	week='17',	day='Sunday',	date='43828',	away_team=atl,	away_spread='1',
+         home_team=tb,	home_spread='-1',	over_under='49.5',	away_score='28',	home_score='22').save()
+    Game(game_id='242',	week='17',	day='Sunday',	date='43828',	away_team=chi,	away_spread='1',
+         home_team=minn,	home_spread='-1',	over_under='37.5',	away_score='21',	home_score='19').save()
+    Game(game_id='243',	week='17',	day='Sunday',	date='43828',	away_team=cle,	away_spread='-2.5',
+         home_team=cin,	home_spread='2.5',	over_under='45.5',	away_score='23',	home_score='33').save()
+    Game(game_id='244',	week='17',	day='Sunday',	date='43828',	away_team=gb,	away_spread='-12.5',
+         home_team=det,	home_spread='12.5',	over_under='43',	away_score='23',	home_score='20').save()
+    Game(game_id='245',	week='17',	day='Sunday',	date='43828',	away_team=ind,	away_spread='-3.5',
+         home_team=jax,	home_spread='3.5',	over_under='43',	away_score='20',	home_score='38').save()
+    Game(game_id='246',	week='17',	day='Sunday',	date='43828',	away_team=lac,	away_spread='7.5',
+         home_team=kc,	home_spread='-7.5',	over_under='46.5',	away_score='21',	home_score='31').save()
+    Game(game_id='247',	week='17',	day='Sunday',	date='43828',	away_team=mia,	away_spread='15.5',
+         home_team=ne,	home_spread='-15.5',	over_under='45',	away_score='27',	home_score='24').save()
+    Game(game_id='248',	week='17',	day='Sunday',	date='43828',	away_team=no,	away_spread='-13',
+         home_team=car,	home_spread='13',	over_under='48',	away_score='42',	home_score='10').save()
+    Game(game_id='249',	week='17',	day='Sunday',	date='43828',	away_team=nyj,	away_spread='1.5',
+         home_team=buf,	home_spread='-1.5',	over_under='36.5',	away_score='13',	home_score='6').save()
+    Game(game_id='250',	week='17',	day='Sunday',	date='43828',	away_team=phi,	away_spread='-4.5',
+         home_team=nyg,	home_spread='4.5',	over_under='45.5',	away_score='34',	home_score='17').save()
+    Game(game_id='251',	week='17',	day='Sunday',	date='43828',	away_team=pit,	away_spread='-2',
+         home_team=bal,	home_spread='2',	over_under='38',	away_score='10',	home_score='28').save()
+    Game(game_id='252',	week='17',	day='Sunday',	date='43828',	away_team=ten,	away_spread='0',
+         home_team=hou,	home_spread='0',	over_under='49',	away_score='35',	home_score='14').save()
+    Game(game_id='253',	week='17',	day='Sunday',	date='43828',	away_team=was,	away_spread='10.5',
+         home_team=dal,	home_spread='-10.5',	over_under='44.5',	away_score='16',	home_score='47').save()
+    Game(game_id='254',	week='17',	day='Sunday',	date='43828',	away_team=ari,	away_spread='5.5',
+         home_team=lar,	home_spread='-5.5',	over_under='45',	away_score='24',	home_score='31').save()
+    Game(game_id='255',	week='17',	day='Sunday',	date='43828',	away_team=oak,	away_spread='3',
+         home_team=den,	home_spread='-3',	over_under='41',	away_score='15',	home_score='16').save()
+    Game(game_id='256',	week='17',	day='Sunday',	date='43828',	away_team=sf,	away_spread='-1',
+         home_team=sea,	home_spread='1',	over_under='47',	away_score='26',	home_score='21').save()
+
 
 def fallow(apps, schema_editor):
     Team = apps.get_model('nflanalysis', 'Team')
